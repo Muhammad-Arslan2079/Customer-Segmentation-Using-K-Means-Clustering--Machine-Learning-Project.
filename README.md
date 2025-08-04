@@ -97,7 +97,7 @@ The notebook includes several helpful plots:
 
 > ✅ Make sure to place the dataset CSV in the same directory, or update the path in the notebook.
 
-OR
+## OR
 
 4. If you are using google colab, directly create kaggle token in profile settings,this will download kaggle.json file,upload it in google colab and then copy code and run all cells.
    ! pip install kaggle  # first step
@@ -108,26 +108,27 @@ OR
 
 ## 📄 Requirements
 
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-jupyter
-kaggle
-```
+install pandas
+install numpy
+install matplotlib
+install seaborn
+import scikit-learn modules
+install jupyter
+! pip install kaggle
+import json
+import os
 
-## 🏁 Conclusion
+
+ ## Conclusion
 
 This project demonstrates how businesses can use clustering techniques like K-Means to better understand their customers. With simple yet powerful visualizations and machine learning, customer behavior insights become more actionable.
 
 ## 📬 Contact
 
 For questions or collaboration:
-
 * Email: 411963ar@gmail.com
 
-Insights:
+## Insights:
 1.People with small or less annual income ususally have high spending score or they spent more in mall compare to those with high annual income.
 
 2.People with high annual income mostly have low spending score or they spend less in mall as compare to those with low annual income
@@ -136,5 +137,5 @@ Insights:
 
 4.Group of people with low annual income and low spending score can be offered with discounts,packages,offers to attract them and generate more sales.
 
-Elbow method for choosing suitable number of clusters:
+## Elbow method for choosing suitable number of clusters:
 Using wcss- meaning: - with in clusters sum of squares - is basically a performance metrics to find the suitable number of clusters.It measure distance of each data point with its respective centroid, then square it to avoid negatives and then take sum all scores,this will give wcss value,we get different wcss values for different number of clusters, and use elbow method that shows a sudden slow down which indicates best number of suitable clusters.
